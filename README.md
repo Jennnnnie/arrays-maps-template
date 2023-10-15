@@ -102,6 +102,8 @@ Your solution may use string & file functions.
 _**Hint**: Looking for how to remove punctuation? 
 See https://www.techiedelight.com/remove-punctuations-string-python/_
 
+_**Note**: If you would like an extra challenge with MESSY real world data, you can try the included test_austen() challenge. This is an entire Jane Austen book that you can work on cleaning to find the word frequencies on. It will not display the entire dictionary in the console, you would need to find another way to check the data. This can take a week or more of extra time debugging, researching, and manipulating the data to match the expected output exactly. If you would like to opt into this additional challenge (recommended for those interested in Data Science), uncomment the test_austen() in frequency_test.py and use the austen file as well in frequency.py. Happy Coding!_
+
 ## Problem 2: Multiplication Table
 
 Write a function called `multiplication_table` that
