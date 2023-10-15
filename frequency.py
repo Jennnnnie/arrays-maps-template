@@ -28,9 +28,9 @@ def print_map_by_value(map):
 
 
 def main():
-    # files = ["pytest", "turing", "austen"]
-    # files = ["pytest", "turing"]
-    files = ["pytest"] # once this works, try the others!
+    # files = ["pytest", "turing", "austen"]   # only use this if you are working on the optional austen challenge, and uncomment test_austen() in frequency_test.py
+    # files = ["pytest", "turing"]             # use this one to pass frequency_test.py for project 3 completion
+    files = ["pytest"]                         # once this works, try the others!
     for f in files:
         print("=" * 10, f, "=" * 10)
         print_map_by_value(word_frequencies("files/"+f+".txt"))
