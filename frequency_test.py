@@ -18,11 +18,11 @@ def test_turing():
     expected = e_file.readline()
     assert actual == expected
 
-
-def test_austen():
-    f = "austen"
-    d = word_frequencies("files/" + f + ".txt")
-    actual = json.dumps(d, sort_keys=True)
-    e_file = open("files/" + f + ".out")
-    expected = e_file.readline()
-    assert actual == expected
+# # IF YOU WOULD LIKE A REAL WORLD MESSY TEXT CHALLENGE, UNCOMMENT THE FOLLOWING TEST
+# def test_austen():
+#     f = "austen"
+#     d = word_frequencies("files/" + f + ".txt")
+#     actual = json.dumps(d, sort_keys=True)
+#     e_file = open("files/" + f + ".out")
+#     expected = e_file.readline()
+#     assert actual == expected
