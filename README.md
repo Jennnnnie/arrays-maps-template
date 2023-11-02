@@ -142,13 +142,8 @@ _**Hint**: What does a boolean accumulator / aggregator variable look like?_
 
 ## Getting started
 
-### Develop online
-
-After accepting the assignment, import (or clone) your project repo into an online IDE such as repl.it or vs code. Edit the file. To run, see the commands below.
-
-### Develop in PyCharm
-
-With this option, you can develop on your laptop. 
+### Develop in an IDE
+ 
 You will need to install PyCharm (or another IDE),
 git, and pytest. PyCharm has some built-in git 
 support.
@@ -160,6 +155,8 @@ aren't outputting the correct information. Fixing this
 will make the tests pass & turn green.
 
 ### Setup
+
+#### repl.it or command line
 To use pytest on repl.it, install it first:
 
 `pip3 install pytest`
@@ -168,19 +165,27 @@ To install pytest on the command line for running on a laptop (using a linux or 
 
 `sudo -H pip3 install pytest`
 
+#### Pycharm
 If using PyCharm, you may need to fix your project setup.
 - Open the **Settings/Preferences | Tools | Python Integrated Tools** settings dialog.
 - In the Default test runner field select **pytest**.
 - Click OK to save the settings.
 
+#### VS Code
+If using VS Code, you may need to configure your pytest settings.
+- Open a python (.py) file
+- In the testing panel, select the **Configure Pytests** button
+- Select **.root** directory for the testing route
+- Refresh the panel if needed if tests are not discovered
+
 ### Run commands
 To run just the main code for one problem:
 
-`python3 file.py`
+`python3 frequency.py`
 
 To run the tests for one problem:
 
-`pytest file_test.py`
+`pytest frequency_test.py`
 
 To run all the tests prior to submission:
 
