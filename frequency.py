@@ -6,7 +6,6 @@
 
 from operator import itemgetter
 import string
-
 import json
 
 # Create a function word_frequencies that takes
@@ -20,6 +19,7 @@ import json
 # Hint: see https://www.techiedelight.com/remove-punctuations-string-python/
 def word_frequencies(filename):
     d = {}
+    # FIXME
     return d
 
 def print_map_by_value(map):
